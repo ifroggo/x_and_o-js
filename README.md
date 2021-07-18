@@ -1,1 +1,1 @@
-# x_and_o-js
+# X and O in javascript
