@@ -36,7 +36,7 @@ function input(button_id) {
                     
                 var ii = i*3;
                 if(board[ii] == currentPlayer) 
-                    if(board[ii] == board[ii+i] && board[ii] == board[ii+2])
+                    if(board[ii] == board[ii+1] && board[ii] == board[ii+2])
                         Win();
                      
             }
