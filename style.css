@@ -1,0 +1,46 @@
+.header {
+    position: relative;
+    text-align: center;
+    margin: 40px 50px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 70px;
+}
+.winner {
+    position: relative;
+    text-align: center;
+    margin: 10px 50px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.grid {
+    display: inline-grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    position: relative;
+    margin: 75px 0px 175px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body {
+    background-color: #353A47;
+ }
+
+.buttons {
+    border: none;
+    background-color: #8DA9C4;
+    padding: 25px 50px;
+    font-size: 50px;
+    color:white;
+    border-radius: 8px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
